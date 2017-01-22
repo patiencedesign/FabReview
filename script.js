@@ -3,8 +3,8 @@
 
 for (i = 0; i < sampleReviews.length; i++){
     $("#featured").append(
-        "<div class='panel panel-default itemBox'><div class='panelbody'>" +
-            sampleReviews[i].itemName + "<br>" +
+        "<div class='panel panel-default itemBox'><div class='panelbody'>" + "<p>" +
+            sampleReviews[i].itemName + "</p>" +
             sampleReviews[i].requestedBy + "<br>" +
         "</div></div>"
         
@@ -15,8 +15,8 @@ for (i = 0; i < sampleReviews.length; i++){
 
 for (i = 0; i < sampleReviews.length; i++){
     $("#latest").append(
-        "<div class='panel panel-default itemBox'><div class='panelbody'>" +
-            sampleReviews[i].itemName + "<br>" +
+        "<div class='panel panel-default itemBox'><div class='panelbody'>" + "<p>" +
+            sampleReviews[i].itemName + "</p>" +
             sampleReviews[i].requestedBy + "<br>" +
         "</div></div>"
         
