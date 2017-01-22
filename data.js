@@ -1,10 +1,10 @@
 var sampleReviews = [
         review1 = {
-            itemName: "Old Navy Striped Sweater",
-            requestedBy: "Requested By FrugalFrannie",
-            description: "Long sleeved, black and white striped sweater. True to size. Color Fading.",
+            itemName: "Item Name",
+            requestedBy: "Requested By",
+            description: "Description",
             media: ["media1", "media2", "media3"],
-            rating: 3
+            rating: 5
         },
         review2 = {
             itemName: "Item Name",
