@@ -1,11 +1,4 @@
 
-// $("#itemSubmit").click(function(){
-//     var newItem = $("#itemNameInput").val();
-//     var newItemLink = $("#itemLinkInput").val();
-    
-//     console.log(newItem)
-// })
-
 // Posts Data to Featured Section
 
 for (i = 0; i < sampleReviews.length; i++){
@@ -42,3 +35,13 @@ for (i = 0; i < sampleReviews.length; i++){
 //     })
 
 // }
+
+
+// var reviewInput = $("#reviewInput").val()
+// var ratingIput = $("#ratingIput").val()
+
+// $("#reviewButton1").click(function(){
+//     $("#ratingResult").append(
+//         reviewInput
+//         )
+// })

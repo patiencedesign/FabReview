@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fab Reviews</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron text-center">
+                <h2>Admin Portal</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <p>2017 Gucci Sweater</p>
+                                <small>Jan 19, 2017</small>
+                                <hr>
+                                <button data-toggle="modal" data-target="#firstButton" class="btn btn-primary">Review</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <p>Old Navy Sundress</p>
+                                <small>Jan 20, 2017</small>
+                                <hr>
+                               <button data-toggle="modal" data-target="#secondButton" class="btn btn-primary">Review</button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <p>Zara Pink Blazer</p>
+                                <small>Jan 22, 2017</small>
+                                <hr>
+                               <button data-toggle="modal" data-target="#thirdButton" class="btn btn-primary">Review</button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p><a href="index.html">Home</a></p>
+            </div>
+        </div>
+        
+        
+        <div class="modal fade" id="firstButton">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title">2017 Gucci Sweater</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label>Review</label>
+                            <input id="reviewInput" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <label>Rating</label>
+                            <input id="ratingInput" class="form-control">
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                          <button class="btn btn-info pull-right">Add Media</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="secondButton">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title">Old Navy Sundress</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label>Review</label>
+                            <input id="reviewInput" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <label>Rating</label>
+                            <input id="ratingInput" class="form-control">
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                          <button class="btn btn-info pull-right">Add Media</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="thirdButton">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title">Zara Pink Blazer</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label>Review</label>
+                            <input id="reviewInput" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <label>Rating</label>
+                            <input id="ratingInput" class="form-control">
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                          <button class="btn btn-info pull-right">Add Media</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
